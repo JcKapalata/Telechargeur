@@ -13,8 +13,8 @@ function searchValidation (){
 }
 
 async function searchDemarrer () { 
+    console.log('debut....');
     while (true) {
-        console.log('debut....');
         let valeur = await searchValidation();
         console.log(valeur);
     }
